@@ -15,9 +15,9 @@
 5. Setiap status yang diaktifkan akan berpengaruh pada status lainnya misal (aktifkan belajar maka main dan makan akan berkurang).
 6. Apabila pemain idle atau tidak melakukan aktifitas apapun maka seluruh status akan berkurang secara dinamis.
 7. Apabila pemain ingin keluar dari permainan maka pemain dapat menekan tombol keluar yang terletak pada sebelah kiri atas.
-9. Apabila pemain tidak mengaktifkan status belajar selama 6 jam di dalam simulator maka pemain akan di D.O (game over).
+9. Apabila pemain tidak mengaktifkan status belajar selama 24 jam di dalam simulator maka pemain akan di D.O (game over).
 10. Jika salah satu dari 3 status bar (makan, main, tidur) habis/kosong maka permainan akan berakhir (game over).
 
 ### DISCLAIMER
 1. Musik background SEHARUSNYA berjalan secara otomatis.
-2. Musik mungkin tidak jalan dikarenakan broweser masing-masing user.
+2. Musik mungkin tidak jalan dikarenakan browser masing-masing user.
