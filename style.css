@@ -1,0 +1,80 @@
+#backgroundUtama {
+	height: 100%;
+	background: url("assets/bg/menu utama.webp");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.progress {
+	height: 30px;
+	width: 200px;
+}
+
+.gameStatus {
+	width: 357px;
+	height: 250px;
+}
+
+.btn {
+	border: none;
+}
+
+#avatars {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 200px;
+	height: 300px;
+	overflow-y: auto;
+}
+/* .avatars > input {
+  display: none;
+} */
+
+.avatars > input + img {
+	border: 2px solid transparent;
+}
+
+.avatars > input:checked + img {
+	border: 2px solid red;
+}
+
+body {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#avatarSelector img {
+	object-fit: cover;
+}
+
+#avatarSelector {
+	overflow: hidden;
+}
+
+.carousel-item img {
+	object-fit: cover;
+}
+
+.carousel-item {
+	-webkit-transition: none;
+	transition: none;
+}
+
+#nama {
+	background-color: #edf7c1;
+	border: none;
+}
+
+#tombol {
+	background-color: #edf7c1;
+	border: none;
+}
