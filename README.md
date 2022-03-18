@@ -2,7 +2,7 @@
 ## Group 7
 
 ### Anggota
-- Gerald Imanuel Wijaya/[ivy](https://github.com/geraldimanuelstudent) (00000060106)
+- Gerald Imanuel Wijaya/[Geri](https://github.com/geraldimanuelstudent) (00000060106)
 - Michael Danda Pratama /[Michael] (00000061296)
 - Ikbar Muhammad Mumtaz /[Ikbar] (00000061296)
 - Steven Arya Setyadhrama Tri Cahya /[Steve] (00000055610)
@@ -21,3 +21,4 @@
 ### DISCLAIMER
 1. Musik background SEHARUSNYA berjalan secara otomatis.
 2. Musik mungkin tidak jalan dikarenakan browser masing-masing user.
+3. Terdapat tombol bantuan pada menu utama.
