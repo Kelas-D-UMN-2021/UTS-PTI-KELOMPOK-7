@@ -1,4 +1,3 @@
-// Hindari const karena tidak bisa diubah data dalamnya, misalnya buttonType = "", nnti buttonType tidak bisa diganti dengan = "submit", atau yang lainnya.
 let time = new Date();
 let hours = 0;
 let hoursTemp = 0;

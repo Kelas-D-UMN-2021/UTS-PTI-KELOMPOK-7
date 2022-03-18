@@ -11,6 +11,54 @@
     <title>Final Project UTS</title>
 </head>
 <body background="assets/bg/menu utama.webp" id="backgroundUtama">
+  <div id="help" class="m-4 text-white position-absolute top-0 end-0">
+    <a id="help-button" data-bs-toggle="modal" data-bs-target="#help-menu">
+        <i class="fa-solid fa-circle-question fa-2x"></i>
+    </a>
+  </div>
+  
+  <div id="menu-help" class="justify-content-center align-items-center d-flex">
+    <div class="modal fade" id="help-menu" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="gamehelp" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="gamehelp">Help</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <h3>Aturan</h3>
+            <ol>
+              <li>Untuk menyelesaikan game ini, pemain perlu menyelesaikan 8 semester yang disediakan pada game ini.</li>
+              <li>Sebelum memulai game pemain diharuskan memilih avatar yang diinginkan dan memasukkan nama. Kemudian tekan tombol play.</li>
+              <li>Terdapat 4 tombol dan 4 status bar yang akan manjadi bagian dalam game (belajar, tidur, makan, main).</li>
+              <li>Untuk mengaktifkan status hanya perlu menekan tombol sekali saja dan untuk menghentikannya pemain dapat menekan tombolnya sekali lagi.</li>
+              <li>Setiap status yang diaktifkan akan berpengaruh pada status lainnya misal (aktifkan belajar maka main dan makan akan berkurang).</li>
+              <li>Apabila pemain ingin keluar dari permainan maka pemain dapat menekan tombol keluar yang terletak pada sebelah kiri atas.</li>
+              <li>Apabila pemain tidak mengaktifkan status belajar selama 24 jam di dalam simulator maka pemain akan di D.O (game over).</li>
+              <li>Jika salah satu dari 3 status bar (makan, main, tidur) habis/kosong maka permainan akan berakhir (game over).</li>
+            </ol>
+            <h3>Disclaimer</h3>
+            <ol>
+              <li>Game ini hanya dibuat untuk memenuhi tugas mata kuliah Pemrograman Berbasis Web.</li>
+              <li>Musik background <b>SEHARUSNYA</b> berjalan secara otomatis.</li>
+              <li>Musik mungkin tidak jalan dikarenakan browser masing-masing user.</li>
+            </ol>
+            <h3>Credits</h3>
+            <ol>
+              <li><b>Gerald Imanuel Wijaya (00000060106)</b><br>
+                  Lead Developer</li>
+              <li><b>Michael Danda Pratama (00000061296)</b><br>
+                  Algorithm Designer and Web Scripting</li>
+              <li><b>Steven Arya Setyadhrama Tri Cahya (00000055610)</b><br>
+                  Visuals Designer and Scripting</li>
+              <li><b>Ikbar Muhammad Mumtaz (00000061296)</b><br>
+                  Visuals Designer and Scripting</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
     <div class="container-fluid d-flex flex-column justify-content-center align-items-center">
         <div class="statusBar p-3 mb-4 mt-4">
             <div class="row mt-2 mx-auto">
