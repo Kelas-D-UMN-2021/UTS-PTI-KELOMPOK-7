@@ -212,21 +212,16 @@ function interval(){
     }
 
     // mengecek greeting apa yang akan diambil
-    switch(hours){
-        case 0:
-            hours >= 4 && hours < 12;
+    if (hours >= 4 && hours < 12){
             greetings = "Good Morning";
             body.style.backgroundImage = "url('./assets/bg/morning.png')";
-        case 1:
-            hours >= 12 && hours < 18;
+    }else if(hours >= 12 && hours < 18){
             greetings = "Good Afternoon";
             body.style.backgroundImage = "url('./assets/bg/afternoon.png')";
-        case 2:
-            hours >= 18 && hours < 24;
+    }else if(hours >= 18 && hours < 24){
             greetings = "Good Evening";
             body.style.backgroundImage = "url('./assets/bg/night.png')";
-        case 3:
-            hours >= 0 && hours < 4;
+    }else if (hours >= 0 && hours < 4){
             greetings = "Good Evening";
             body.style.backgroundImage = "url('./assets/bg/night.png')";
     }
