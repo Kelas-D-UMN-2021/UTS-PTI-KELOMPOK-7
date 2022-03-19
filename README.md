@@ -3,7 +3,7 @@
 
 ### Anggota
 - Gerald Imanuel Wijaya/[Geri](https://github.com/geraldimanuelstudent) (00000060106)
-- Michael Danda Pratama /[Michael] (00000061296)
+- Michael Danda Pratama /[Michael] (00000055630)
 - Ikbar Muhammad Mumtaz /[Ikbar] (00000061296)
 - Steven Arya Setyadhrama Tri Cahya /[Steve] (00000055610)
 
